@@ -1,6 +1,6 @@
 # BTE Query Generator using GPT
 - Generates BTE queries from a question using GPT
-- See notebook (`notebook.ipynb`) for a better explanation of code, or use deployed website to try it out: https://bte-query-generator.onrender.com/
+- See notebook (`notebook.ipynb`) for a better explanation of code, or use deployed website to try it out: https://bte-query-generator.onrender.com/ (may have long loading time)
 - Needs a lot more testing
 - Currently only supports the following categories
 ```
