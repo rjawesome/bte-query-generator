@@ -33,7 +33,7 @@ def resolve_ids(ids):
     for i in ids:
         url = "https://name-resolution-sri.renci.org/lookup?string=" + i.replace(" ", "%20") + "&offset=0&limit=1"
         res = requests.post(url, data={})
-        prefix_str += i + "=" + next(iter(res.json())) + "\n"
+        prefix_str += i + "=" + next(iter(res.json()))['curie'] + "\n"
     return prefix_str
 
 def get_json(question, resolved_ids):
