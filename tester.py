@@ -55,6 +55,7 @@ def question_to_json(question):
     except openai.error.RateLimitError as e:
         output = 'open ai rate limit reached (wait like 1 min) :('
         print('open ai rate limit reached :(')
+        print(e)
         
     return output
 
