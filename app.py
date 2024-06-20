@@ -1,7 +1,11 @@
 from tester import question_to_json
 from flask import Flask, Response, render_template, request
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
+
 
 @app.route('/api', methods=['GET'])
 def handle_question():
