@@ -1,0 +1,10 @@
+version: '3'
+services:
+  query_generator:
+    env_file:
+      - .env
+    image: query_generator
+    build: .
+    ports:
+      - "10101:10101"
+    restart: unless-stopped
