@@ -3,7 +3,7 @@
   - GPT is used to extract "named things" in a query that would need to be converted into IDs
   - The SRI Name Resolution tool is used to resolve IDs of such named things
   - GPT is used to create a BTE query based on the IDs generated
-- See notebook (`notebook.ipynb`) for a better explanation of code, or use deployed website to try it out: https://bte-query-generator.onrender.com/ (may have long loading time)
+- See notebook (`notebook.ipynb`) for a better explanation of code, or use deployed website to try it out: https://bte-query-generator.rohanj.dev/
 - Needs a lot more testing
 - Currently only supports the following categories
 ```
